@@ -1,0 +1,33 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "1ff0d8df-b6e5-461f-88b4-d9c5b830f474",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "d90d5bee-b2e4-42c9-9ba8-440066f9bb59",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f2ab2ecb-5f6d-4309-ab8f-051d84f439ec",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
