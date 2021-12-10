@@ -12,6 +12,7 @@ public class Balloon : MonoBehaviour
     [SerializeField] private MouseObject _mo;
     [SerializeField] private float shakeLength;
     [SerializeField] private float shakePower;
+    [SerializeField] private Animator _anim;
 
     //private Vector2 _distVector;
     private Vector2 _impulse = Vector2.zero;
@@ -70,6 +71,7 @@ public class Balloon : MonoBehaviour
         if (collision.gameObject.tag == "wall")
         {
             ScreenShakeController.Instance.StartShake(shakeLength, shakePower);
+            _anim.SetTrigger("Hit");
         }
     }
 
