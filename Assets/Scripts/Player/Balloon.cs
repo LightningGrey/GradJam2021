@@ -10,6 +10,8 @@ public class Balloon : MonoBehaviour
     [Header("References")]
     [SerializeField] private Rigidbody2D _rb;
     [SerializeField] private MouseObject _mo;
+    [SerializeField] private float shakeLength;
+    [SerializeField] private float shakePower;
 
     //private Vector2 _distVector;
     private Vector2 _impulse = Vector2.zero;
@@ -60,6 +62,14 @@ public class Balloon : MonoBehaviour
             }
             timer += Time.deltaTime;
             yield return new WaitForFixedUpdate();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "wall")
+        {
+            ScreenShakeController.Instance.StartShake(shakeLength, shakePower);
         }
     }
 
