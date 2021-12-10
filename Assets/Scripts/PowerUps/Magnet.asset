@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84c72f293bda14e44be4c767dfcdb788, type: 3}
   m_Name: Magnet
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  powerName: 
+  sprite: {fileID: 21300000, guid: 4987b242654dcab4abdc2566fb451851, type: 3}

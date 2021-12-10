@@ -12,8 +12,12 @@ public class PowerUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //icon = GetComponent<SpriteRenderer>();
-        //icon.sprite = power.sprite;
+        icon = GetComponent<SpriteRenderer>();
+        if(power != null)
+        {
+            icon.sprite = power.sprite;
+        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {

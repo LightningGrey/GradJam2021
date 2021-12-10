@@ -7,7 +7,6 @@ using UnityEngine;
 public class PowerUpData : ScriptableObject
 {
     public Sprite sprite;
-    public string powerName;
 
     public virtual void effect(GameObject balloon) {
 
