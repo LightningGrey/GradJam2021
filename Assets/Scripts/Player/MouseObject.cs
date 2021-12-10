@@ -64,10 +64,10 @@ public class MouseObject : MonoBehaviour
         _collider.enabled = true;
     }
 
-    public IEnumerator SuspendBounce() {
+    public IEnumerator SuspendBounce(float duration) {
         _collider.enabled = true;
         canBounce = false;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(duration);
         canBounce = true;
     }
 }

@@ -44,17 +44,17 @@ public class Balloon : MonoBehaviour
     }
 
 
-    public IEnumerator FrozenPowerUp() {
+    public IEnumerator FrozenPowerUp(float duration) {
         storedVelocity = GetComponent<Rigidbody2D>().velocity;
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(duration);
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
         GetComponent<Rigidbody2D>().velocity = storedVelocity;
     }
-    public IEnumerator MagnetPowerUp() {
+    public IEnumerator MagnetPowerUp(float duration) {
         float timer = 0.0f;
-        _mo.StartCoroutine(_mo.SuspendBounce());
-        while (timer <= 5f) {
+        _mo.StartCoroutine(_mo.SuspendBounce(duration));
+        while (timer <= duration) {
             if (Vector2.Distance(_mo.gameObject.transform.position, gameObject.transform.position) <= 5) {
                 Debug.Log(Vector2.Distance(_mo.gameObject.transform.position, gameObject.transform.position));
                 Vector2 impulse = (_mo.gameObject.transform.position - gameObject.transform.position).normalized;
