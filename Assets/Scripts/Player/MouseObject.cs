@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class MouseObject : MonoBehaviour
 {
@@ -31,6 +32,11 @@ public class MouseObject : MonoBehaviour
         {
             _mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             gameObject.transform.position = _mousePos;
+        }
+
+        if (Keyboard.current.escapeKey.IsPressed())
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
