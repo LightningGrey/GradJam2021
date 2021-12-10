@@ -21,7 +21,7 @@ public class MouseObject : MonoBehaviour
 
     void Awake()
     {
-        Cursor.lockState = CursorLockMode.Confined;
+        //Cursor.lockState = CursorLockMode.Confined;
     }
 
 
@@ -53,6 +53,7 @@ public class MouseObject : MonoBehaviour
             Vector2 impulse = (gameObject.transform.position - collision.gameObject.transform.position).normalized * -1;
             collision.gameObject.GetComponent<Balloon>().Impulse = impulse;
             ScreenShakeController.Instance.StartShake(shakeLength, shakePower);
+            collision.gameObject.GetComponent<Animator>().SetTrigger("Hit");
             StartCoroutine("Cooldown");
         }
     }

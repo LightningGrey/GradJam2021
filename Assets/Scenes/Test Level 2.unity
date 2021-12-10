@@ -17863,6 +17863,7 @@ GameObject:
   - component: {fileID: 321879792}
   - component: {fileID: 321879791}
   - component: {fileID: 321879790}
+  - component: {fileID: 321879795}
   m_Layer: 0
   m_Name: Balloon
   m_TagString: Balloon
@@ -17939,6 +17940,7 @@ MonoBehaviour:
   _mo: {fileID: 1354969548}
   shakeLength: 0.5
   shakePower: 1
+  _anim: {fileID: 321879795}
   _forceCoefficient: 150
 --- !u!4 &321879794
 Transform:
@@ -17956,8 +17958,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &591088110
-GameObject:
+--- !u!95 &321879795
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -24553,7 +24556,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7741935, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -28585,7 +28588,7 @@ GameObject:
   - component: {fileID: 1505498914}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30773,7 +30776,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: cfd95632b0d36434eb76a147e40666a3, type: 3}
+  m_Sprite: {fileID: 5549782074220481775, guid: d700dfa9091766e4fb29d41d7fb5cd31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -31137,7 +31140,7 @@ GameObject:
   - component: {fileID: 2069757435}
   m_Layer: 0
   m_Name: Tilemap (1)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
