@@ -26,7 +26,7 @@ public class Health : MonoBehaviour
         else { 
             Debug.Log("die");
         }
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void ActivateShield() {
         shield = true;

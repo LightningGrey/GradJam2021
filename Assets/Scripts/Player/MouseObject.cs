@@ -57,7 +57,7 @@ public class MouseObject : MonoBehaviour
     public IEnumerator SuspendBounce() {
         _collider.enabled = true;
         canBounce = false;
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(5f);
         canBounce = true;
     }
 }
