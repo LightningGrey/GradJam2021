@@ -1,14 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class MouseObject : MonoBehaviour
-{ 
-    [Header("References")]
+{
+    [Header("References")] [SerializeField]
+    private Collider2D _collider;
 
     private Vector2 _mousePos;
     private Vector2 distVector;
+
 
 
     // Update is called once per frame
@@ -27,10 +30,18 @@ public class MouseObject : MonoBehaviour
     {
         if (collision.gameObject.tag == "Balloon")
         {
-            Debug.Log("true");
             Vector2 impulse = (gameObject.transform.position - collision.gameObject.transform.position).normalized * -1;
             collision.gameObject.GetComponent<Balloon>().Impulse = impulse;
+
+            StartCoroutine("Cooldown");
         }
+    }
+
+    IEnumerator Cooldown()
+    {
+        _collider.enabled = false;
+        yield return new WaitForSeconds(1.5f);
+        _collider.enabled = true;
     }
 
 }

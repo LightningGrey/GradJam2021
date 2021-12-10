@@ -437,9 +437,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.5
+  m_LinearDrag: 0.4
   m_AngularDrag: 0.05
-  m_GravityScale: 0.1
+  m_GravityScale: 0.2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 321879790}
-  _forceCoefficient: 100
+  _forceCoefficient: 150
 --- !u!4 &321879794
 Transform:
   m_ObjectHideFlags: 0
@@ -496,7 +496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321879789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.49, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1638974606}
@@ -867,6 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9432b955a1c2aa49b9b715e52b5fcc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _collider: {fileID: 1354969546}
 --- !u!212 &1354969549
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
+using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using Scene = UnityEditor.SearchService.Scene;
 
 public class Health : MonoBehaviour
 {
@@ -9,17 +13,11 @@ public class Health : MonoBehaviour
 
     private void Start()
     {
-        lives = startingLives;
+        //lives = startingLives;
     }
 
     public void OnDeath()
     {
-        lives -= 1;
-        Debug.Log(lives);
-        if (lives <= 0)
-        {
-            // dead
-            return;
-        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

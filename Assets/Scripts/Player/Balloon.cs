@@ -35,7 +35,10 @@ public class Balloon : MonoBehaviour
             _rb.AddForce(_impulse * _forceCoefficient);
             _impulse = Vector2.zero;
         }
+
+        _rb.velocity = Vector2.ClampMagnitude(_rb.velocity, 20.0f);
     }
+
 
 
 }
