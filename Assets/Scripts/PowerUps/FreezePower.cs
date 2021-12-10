@@ -7,6 +7,6 @@ using UnityEngine;
 public class FreezePower : PowerUpData
 {
     public override void effect(GameObject balloon) {
-        balloon.GetComponent<Balloon>().StartCoroutine(balloon.GetComponent<Balloon>().FrozenPowerUp());
+        balloon.GetComponent<Balloon>().StartCoroutine(balloon.GetComponent<Balloon>().FrozenPowerUp(duration));
     }
 }
