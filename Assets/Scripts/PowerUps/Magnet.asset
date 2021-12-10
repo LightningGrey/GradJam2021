@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Magnet
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 4987b242654dcab4abdc2566fb451851, type: 3}
+  duration: 8
