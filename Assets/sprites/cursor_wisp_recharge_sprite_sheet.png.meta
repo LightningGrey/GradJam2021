@@ -1,46 +1,28 @@
 fileFormatVersion: 2
-guid: 07f633a4c7c982040b104bd90cbf824b
+guid: 7426b1660b396e94884b697efcc49afe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1990808706992149144
-    second: cursor_wisp_idle_sprite_sheet_0
+      213: 688150654827048716
+    second: cursor_wisp_recharge_sprite_sheet_0
   - first:
-      213: -5102649268435718547
-    second: cursor_wisp_idle_sprite_sheet_1
+      213: 1768250691849389012
+    second: cursor_wisp_recharge_sprite_sheet_1
   - first:
-      213: -6846146996746388441
-    second: cursor_wisp_idle_sprite_sheet_2
+      213: -6219707457427428117
+    second: cursor_wisp_recharge_sprite_sheet_2
   - first:
-      213: -99203391121557144
-    second: cursor_wisp_idle_sprite_sheet_3
+      213: -3788203799256105552
+    second: cursor_wisp_recharge_sprite_sheet_3
   - first:
-      213: 5831836689891392076
-    second: cursor_wisp_idle_sprite_sheet_4
+      213: 3193722510429876672
+    second: cursor_wisp_recharge_sprite_sheet_4
   - first:
-      213: -7497412008732099469
-    second: cursor_wisp_idle_sprite_sheet_5
+      213: 3771228556370796164
+    second: cursor_wisp_recharge_sprite_sheet_5
   - first:
-      213: 6255448755147903433
-    second: cursor_wisp_idle_sprite_sheet_6
-  - first:
-      213: 3661870378862360122
-    second: cursor_wisp_idle_sprite_sheet_7
-  - first:
-      213: 1468088504561318040
-    second: cursor_wisp_idle_sprite_sheet_8
-  - first:
-      213: 1000596260594342478
-    second: cursor_wisp_idle_sprite_sheet_9
-  - first:
-      213: -5969391151047849588
-    second: cursor_wisp_idle_sprite_sheet_10
-  - first:
-      213: -3136335058294288355
-    second: cursor_wisp_idle_sprite_sheet_11
-  - first:
-      213: 642568837460817048
-    second: cursor_wisp_idle_sprite_sheet_12
+      213: -5535013628561201440
+    second: cursor_wisp_recharge_sprite_sheet_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -178,7 +160,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_0
+      name: cursor_wisp_recharge_sprite_sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -192,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8929504a8f5c0ab10800000000000000
-      internalID: 1990808706992149144
+      spriteID: c0f2be4ef5dcc8900800000000000000
+      internalID: 688150654827048716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_1
+      name: cursor_wisp_recharge_sprite_sheet_1
       rect:
         serializedVersion: 2
         x: 160
@@ -213,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e6b7d768fbf29b0800000000000000
-      internalID: -5102649268435718547
+      spriteID: 4d38589b2a61a8810800000000000000
+      internalID: 1768250691849389012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_2
+      name: cursor_wisp_recharge_sprite_sheet_2
       rect:
         serializedVersion: 2
         x: 320
@@ -234,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72cf2d234999df0a0800000000000000
-      internalID: -6846146996746388441
+      spriteID: beca03955092fa9a0800000000000000
+      internalID: -6219707457427428117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_3
+      name: cursor_wisp_recharge_sprite_sheet_3
       rect:
         serializedVersion: 2
         x: 480
@@ -255,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8697fa79a0f8f9ef0800000000000000
-      internalID: -99203391121557144
+      spriteID: 0bdfd8027b89d6bc0800000000000000
+      internalID: -3788203799256105552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_4
+      name: cursor_wisp_recharge_sprite_sheet_4
       rect:
         serializedVersion: 2
         x: 640
@@ -276,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4af0113298dee050800000000000000
-      internalID: 5831836689891392076
+      spriteID: 0c17751c3b1625c20800000000000000
+      internalID: 3193722510429876672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_5
+      name: cursor_wisp_recharge_sprite_sheet_5
       rect:
         serializedVersion: 2
         x: 800
@@ -297,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37c76c44087d3f790800000000000000
-      internalID: -7497412008732099469
+      spriteID: 48e5a452468165430800000000000000
+      internalID: 3771228556370796164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_6
+      name: cursor_wisp_recharge_sprite_sheet_6
       rect:
         serializedVersion: 2
         x: 960
@@ -318,134 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c110410081dfc650800000000000000
-      internalID: 6255448755147903433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_7
-      rect:
-        serializedVersion: 2
-        x: 1120
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a36bd9945b391d230800000000000000
-      internalID: 3661870378862360122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_8
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 898363577b2bf5410800000000000000
-      internalID: 1468088504561318040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_9
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4a5f446ff4d2ed00800000000000000
-      internalID: 1000596260594342478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_10
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c89ce641066782da0800000000000000
-      internalID: -5969391151047849588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_11
-      rect:
-        serializedVersion: 2
-        x: 1760
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d10d3c9a1ef7974d0800000000000000
-      internalID: -3136335058294288355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cursor_wisp_idle_sprite_sheet_12
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 894769404fcdae800800000000000000
-      internalID: 642568837460817048
+      spriteID: 0e6e9aa3e6eaf23b0800000000000000
+      internalID: -5535013628561201440
       vertices: []
       indices: 
       edges: []
@@ -453,7 +309,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bfbb4ee1a782d2f4994e5f155b596397
+    spriteID: 50dd28a47c5e3ed48b3f5555ab26af57
     internalID: 0
     vertices: []
     indices: 

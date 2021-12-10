@@ -8,6 +8,7 @@ public class Spike : MonoBehaviour
     {
         if (collision.gameObject.tag == "Balloon")
         {
+            collision.gameObject.GetComponent<Collider2D>().enabled = false;
             collision.gameObject.GetComponent<Health>().OnDeath();
         }
     }

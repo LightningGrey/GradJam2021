@@ -12,6 +12,8 @@ public class MouseObject : MonoBehaviour
     [SerializeField] private float _cooldown = 1.0f;
     [SerializeField] private float shakeLength;
     [SerializeField] private float shakePower;
+    [SerializeField] private Animator _animator;
+
 
     private Vector2 _mousePos;
     private Vector2 distVector;
@@ -53,6 +55,8 @@ public class MouseObject : MonoBehaviour
             Vector2 impulse = (gameObject.transform.position - collision.gameObject.transform.position).normalized * -1;
             collision.gameObject.GetComponent<Balloon>().Impulse = impulse;
             ScreenShakeController.Instance.StartShake(shakeLength, shakePower);
+
+           _animator.SetTrigger("Hit");
             collision.gameObject.GetComponent<Animator>().SetTrigger("Hit");
             StartCoroutine("Cooldown");
         }

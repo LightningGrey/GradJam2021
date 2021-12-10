@@ -11,6 +11,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float startingLives;
     [SerializeField] private float shakeLength;
     [SerializeField] private float shakePower;
+    [SerializeField] private Animator _animator;
     private bool shield = false;
     private float deathTimer = 0.0f;
     public bool dead = false;
@@ -48,10 +49,10 @@ public class Health : MonoBehaviour
             Debug.Log("die");
             dead = true;
             //Start death timer
-            deathTimer = shakeLength;
+            deathTimer = shakeLength + 0.2f;
             //Freeze balloon rigidbody
             this.gameObject.transform.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-            //TODO: Prob start death animation (make shake length = death animation length)
+            _animator.SetTrigger("Dead");
         }
     }
     public void ActivateShield() {
