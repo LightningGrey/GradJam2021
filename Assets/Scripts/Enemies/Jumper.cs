@@ -9,10 +9,6 @@ public class Jumper : MonoBehaviour
     public float offsetFirstJump = 0;
     private bool isJumping = false;
     private float timer = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
     // Update is called once per frame
     void Update()

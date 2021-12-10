@@ -9,6 +9,8 @@ public class MouseObject : MonoBehaviour
     [Header("References")] 
     [SerializeField] private Collider2D _collider;
     [SerializeField] private float _cooldown = 1.0f;
+    [SerializeField] private float shakeLength;
+    [SerializeField] private float shakePower;
 
     private Vector2 _mousePos;
     private Vector2 distVector;
@@ -40,11 +42,11 @@ public class MouseObject : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Balloon" && canBounce)
+        if (collision.gameObject.tag == "Balloon" && canBounce && !collision.gameObject.transform.GetComponent<Health>().dead)
         {
             Vector2 impulse = (gameObject.transform.position - collision.gameObject.transform.position).normalized * -1;
             collision.gameObject.GetComponent<Balloon>().Impulse = impulse;
-
+            ScreenShakeController.Instance.StartShake(shakeLength, shakePower);
             StartCoroutine("Cooldown");
         }
     }

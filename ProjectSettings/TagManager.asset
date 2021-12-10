@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Balloon
   - ground
+  - wall
   layers:
   - Default
   - TransparentFX
