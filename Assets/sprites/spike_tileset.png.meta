@@ -1,34 +1,19 @@
 fileFormatVersion: 2
-guid: 96f38f277c9061043a60d8040c9c6421
+guid: 60c1c0e1d31343e4aa9b03778935e09c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1493209057794620696
-    second: tileset 2_0
+      213: 9181942951988420323
+    second: spike_tileset_0
   - first:
-      213: 2931100916303686755
-    second: tileset 2_1
+      213: -7894226513816592076
+    second: spike_tileset_1
   - first:
-      213: 3069866725406670578
-    second: tileset 2_2
+      213: 6651750763155065273
+    second: spike_tileset_2
   - first:
-      213: -1890716252487570454
-    second: tileset 2_3
-  - first:
-      213: 5422276586216989438
-    second: tileset 2_4
-  - first:
-      213: -3871212660782209712
-    second: tileset 2_5
-  - first:
-      213: -7565629359869166949
-    second: tileset 2_6
-  - first:
-      213: -6343882194804710588
-    second: tileset 2_7
-  - first:
-      213: 2730555733683190446
-    second: tileset 2_8
+      213: -5661507490073216904
+    second: spike_tileset_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -154,28 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset 2_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81d7e390ab1f8b410800000000000000
-      internalID: 1493209057794620696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 2_1
+      name: spike_tileset_0
       rect:
         serializedVersion: 2
         x: 160
@@ -189,35 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36c6a15f0cc5da820800000000000000
-      internalID: 2931100916303686755
+      spriteID: 3eedb218770dc6f70800000000000000
+      internalID: 9181942951988420323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 2_2
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fef7ab958b5a9a20800000000000000
-      internalID: 3069866725406670578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 2_3
+      name: spike_tileset_1
       rect:
         serializedVersion: 2
         x: 0
@@ -231,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aebab67f593d2c5e0800000000000000
-      internalID: -1890716252487570454
+      spriteID: 431ed73afc2127290800000000000000
+      internalID: -7894226513816592076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 2_4
+      name: spike_tileset_2
       rect:
         serializedVersion: 2
         x: 320
@@ -252,35 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2a163a3dbcf3b40800000000000000
-      internalID: 5422276586216989438
+      spriteID: 9b98a4c9314cf4c50800000000000000
+      internalID: 6651750763155065273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset 2_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 055e4187890b64ac0800000000000000
-      internalID: -3871212660782209712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 2_6
+      name: spike_tileset_3
       rect:
         serializedVersion: 2
         x: 160
@@ -294,29 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9a7bbe7e2c710790800000000000000
-      internalID: -7565629359869166949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset 2_7
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4436db151c006f7a0800000000000000
-      internalID: -6343882194804710588
+      spriteID: 878f8f80fe84e61b0800000000000000
+      internalID: -5661507490073216904
       vertices: []
       indices: 
       edges: []
