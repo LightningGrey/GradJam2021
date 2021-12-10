@@ -22,6 +22,11 @@ public class MenuManager : MonoBehaviour
         instructionsPanel.SetActive(false);
     }
 
+    public void OnMainMenuButton()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void OnExitButton()
     {
         Application.Quit();
