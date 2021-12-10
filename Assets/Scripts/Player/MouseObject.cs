@@ -13,17 +13,26 @@ public class MouseObject : MonoBehaviour
     private Vector2 distVector;
 
 
+    void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
 
     // Update is called once per frame
     void Update()
     {
+        if (Mouse.current.position.ReadValue().magnitude > 0.0f)
+        {
+            _mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            gameObject.transform.position = _mousePos;
+        }
     }
 
     public void OnPosition(InputAction.CallbackContext ctx)
     {
-        _mousePos = ctx.ReadValue<Vector2>();
-        _mousePos = Camera.main.ScreenToWorldPoint(_mousePos);
-        gameObject.transform.position = _mousePos;
+        //_mousePos = Camera.main.ScreenToWorldPoint(ctx.ReadValue<Vector2>());
+        //gameObject.transform.position = _mousePos;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
