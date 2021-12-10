@@ -6,12 +6,14 @@ using UnityEngine.InputSystem;
 
 public class MouseObject : MonoBehaviour
 {
-    [Header("References")] [SerializeField]
-    private Collider2D _collider;
+    [Header("References")] 
+    [SerializeField] private Collider2D _collider;
+    [SerializeField] private float _cooldown = 1.0f;
 
     private Vector2 _mousePos;
     private Vector2 distVector;
     private bool canBounce = true;
+   
 
 
     void Awake()
@@ -50,7 +52,7 @@ public class MouseObject : MonoBehaviour
     IEnumerator Cooldown()
     {
         _collider.enabled = false;
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(_cooldown);
         _collider.enabled = true;
     }
 
