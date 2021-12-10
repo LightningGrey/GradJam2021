@@ -11,6 +11,7 @@ public class MouseObject : MonoBehaviour
 
     private Vector2 _mousePos;
     private Vector2 distVector;
+    private bool canBounce = true;
 
 
     void Awake()
@@ -37,7 +38,7 @@ public class MouseObject : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Balloon")
+        if (collision.gameObject.tag == "Balloon" && canBounce)
         {
             Vector2 impulse = (gameObject.transform.position - collision.gameObject.transform.position).normalized * -1;
             collision.gameObject.GetComponent<Balloon>().Impulse = impulse;
@@ -53,4 +54,10 @@ public class MouseObject : MonoBehaviour
         _collider.enabled = true;
     }
 
+    public IEnumerator SuspendBounce() {
+        _collider.enabled = true;
+        canBounce = false;
+        yield return new WaitForSeconds(4f);
+        canBounce = true;
+    }
 }

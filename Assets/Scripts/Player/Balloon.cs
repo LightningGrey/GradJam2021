@@ -9,16 +9,18 @@ public class Balloon : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Rigidbody2D _rb;
+    [SerializeField] private MouseObject _mo;
 
     //private Vector2 _distVector;
     private Vector2 _impulse = Vector2.zero;
+    private Vector2 storedVelocity = Vector2.zero;
     public Vector2 Impulse
     {
         get => _impulse;
         set => _impulse = value;
     }
 
-    [Header("Variables")]
+[Header("Variables")]
     [SerializeField] private float _forceCoefficient = 100.0f;
 
     // Start is called before the first frame update
@@ -40,5 +42,25 @@ public class Balloon : MonoBehaviour
     }
 
 
+    public IEnumerator FrozenPowerUp() {
+        storedVelocity = GetComponent<Rigidbody2D>().velocity;
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+        yield return new WaitForSeconds(2f);
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+        GetComponent<Rigidbody2D>().velocity = storedVelocity;
+    }
+    public IEnumerator MagnetPowerUp() {
+        float timer = 0.0f;
+        _mo.StartCoroutine(_mo.SuspendBounce());
+        while (timer <= 5f) {
+            if (Vector2.Distance(_mo.gameObject.transform.position, gameObject.transform.position) <= 5) {
+                Debug.Log(Vector2.Distance(_mo.gameObject.transform.position, gameObject.transform.position));
+                Vector2 impulse = (_mo.gameObject.transform.position - gameObject.transform.position).normalized;
+                _rb.AddForce(impulse * 6f);
+            }
+            timer += Time.deltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+    }
 
 }
