@@ -50114,6 +50114,7 @@ GameObject:
   - component: {fileID: 1226451263}
   - component: {fileID: 1226451265}
   - component: {fileID: 1226451264}
+  - component: {fileID: 1226451266}
   m_Layer: 0
   m_Name: Torch (2)
   m_TagString: Untagged
@@ -50265,6 +50266,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1226451266
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226451262}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ac004a2b76af83408ce76ed43ff3c95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1238928549
 GameObject:
   m_ObjectHideFlags: 0
@@ -50383,6 +50403,7 @@ GameObject:
   - component: {fileID: 1342895368}
   - component: {fileID: 1342895370}
   - component: {fileID: 1342895369}
+  - component: {fileID: 1342895371}
   m_Layer: 0
   m_Name: Torch (1)
   m_TagString: Untagged
@@ -50534,6 +50555,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1342895371
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342895367}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ac004a2b76af83408ce76ed43ff3c95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1354969545
 GameObject:
   m_ObjectHideFlags: 0
@@ -50731,6 +50771,7 @@ GameObject:
   - component: {fileID: 1389258817}
   - component: {fileID: 1389258819}
   - component: {fileID: 1389258818}
+  - component: {fileID: 1389258820}
   m_Layer: 0
   m_Name: Torch (3)
   m_TagString: Untagged
@@ -50882,6 +50923,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1389258820
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389258816}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ac004a2b76af83408ce76ed43ff3c95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1393164266
 GameObject:
   m_ObjectHideFlags: 0
@@ -51055,6 +51115,7 @@ GameObject:
   - component: {fileID: 1438973272}
   - component: {fileID: 1438973274}
   - component: {fileID: 1438973273}
+  - component: {fileID: 1438973275}
   m_Layer: 0
   m_Name: Torch (5)
   m_TagString: Untagged
@@ -51206,6 +51267,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1438973275
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438973271}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ac004a2b76af83408ce76ed43ff3c95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1505498910
 GameObject:
   m_ObjectHideFlags: 0
@@ -53607,6 +53687,7 @@ GameObject:
   - component: {fileID: 1995697714}
   - component: {fileID: 1995697716}
   - component: {fileID: 1995697715}
+  - component: {fileID: 1995697717}
   m_Layer: 0
   m_Name: Torch (6)
   m_TagString: Untagged
@@ -53758,6 +53839,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1995697717
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995697713}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ac004a2b76af83408ce76ed43ff3c95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2053885573
 GameObject:
   m_ObjectHideFlags: 0
@@ -53769,6 +53869,7 @@ GameObject:
   - component: {fileID: 2053885574}
   - component: {fileID: 2053885576}
   - component: {fileID: 2053885575}
+  - component: {fileID: 2053885577}
   m_Layer: 0
   m_Name: Torch (4)
   m_TagString: Untagged
@@ -53920,6 +54021,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2053885577
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053885573}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ac004a2b76af83408ce76ed43ff3c95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2069757431
 GameObject:
   m_ObjectHideFlags: 0
@@ -57385,6 +57505,7 @@ GameObject:
   - component: {fileID: 2144524785}
   - component: {fileID: 2144524787}
   - component: {fileID: 2144524786}
+  - component: {fileID: 2144524788}
   m_Layer: 0
   m_Name: Torch (7)
   m_TagString: Untagged
@@ -57536,6 +57657,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2144524788
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144524784}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ac004a2b76af83408ce76ed43ff3c95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &5493180568409793586
 PrefabInstance:
   m_ObjectHideFlags: 0
